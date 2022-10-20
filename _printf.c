@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _printf - Printf function
@@ -50,4 +51,3 @@ int _printf(const char *format, ...)
 	print_buf(buffer, ibuf), free(buffer), va_end(arguments);
 	return (len);
 }
-
