@@ -3,6 +3,7 @@
 /**
  * check_for_specifiers - checks for a valid format specifier
  * @format: possible format specifier
+ * @print_c:print c
  * Return: pointer to valid function or NULL
  */
 
